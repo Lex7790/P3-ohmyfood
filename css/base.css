@@ -6,4 +6,8 @@
 body {
   margin: 0;
   font-family: "Roboto", cursive;
+}
+
+main {
+  padding: 0 16px;
 }/*# sourceMappingURL=base.css.map */
