@@ -91,7 +91,7 @@ main .city {
 }
 
 .operation-bloc-line:hover {
-  background-color: #e3d3f5;
+  background-color: #f2eaf7;
 }
 
 .operation-bloc-line-number {
@@ -113,6 +113,6 @@ main .city {
 }
 
 .operation-bloc-line-icon {
-  padding: 1.5rem 1.3rem 1.5rem 2.5rem;
+  padding: 24px 20.8px 24px 40px;
   color: gray;
 }/*# sourceMappingURL=style.css.map */
