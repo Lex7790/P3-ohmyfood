@@ -6,4 +6,8 @@
 body {
   margin: 0;
   font-family: "Roboto", cursive;
+}
+
+.fa, .fas {
+  font-weight: 900;
 }/*# sourceMappingURL=base.css.map */

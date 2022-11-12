@@ -68,5 +68,49 @@ main .city {
     transform: scale(1.02);
     opacity: 0.9;
 }
+
+.operation-title {
+    padding-left: 16px;
+}
+
+.operation-bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.operation-bloc-line {
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    box-shadow: 6.4px 16px 8px 0 rgb(92 90 90 / 10%);
+    padding: 0 16px;
+    margin: 32px;
+    cursor: pointer;
+}
+
+.operation-bloc-line-number {
+    background-color: #9356DC;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -24px;
+    color: white;
+    font-size: 12.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation-bloc-line-text {
+    font-size: 12.8px;
+    font-weight: bold;
+}
+
+.operation-bloc-line-icon {
+    padding: 1.5rem 1.3rem 1.5rem 2.5rem;
+    color: gray;
+}
   
 /*# sourceMappingURL=style.css.map */
