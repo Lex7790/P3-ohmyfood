@@ -8,54 +8,13 @@ body {
   font-family: "Roboto", cursive;
 }
 
+main {
+  padding: 0 16px;
+}
+
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   padding: 4.8px;
-}
-
- main .city {
-    text-align: center;
-    background-color: #e4e4e4;
-    padding: 0.3rem 0;
-    box-shadow: 0px -4px 4px #d8d7d7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
-    margin: 0;
-  }
-
-  .city h2 {
-    font-size: 16px;
-  }
-
-  .explorer {
-    text-align: center;
-  }
-
-  .explorer h2 {
-    margin-top: 32px;
-  }
-
-  .explorer button {
-    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
-    color: white;
-    font-weight: bold;
-    padding: 1rem;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
-    transition: transform 200ms;
-  }
-
-  .explorer button:hover {
-    transform: scale(1.02);
-    opacity: 0.9;
-  }
-
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
