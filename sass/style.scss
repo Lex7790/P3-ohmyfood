@@ -78,7 +78,7 @@ main .city {
 
 .operation__bloc__line:hover {
     background-color: #f2eaf7;
-    
+
 }
 
 .operation__bloc__line__number {
@@ -107,7 +107,7 @@ main .city {
 .restaurant {
     padding: 32px;
     background-color: #F6F6F6;
-   
+
 
     .menu__cards {
         display: grid;
@@ -116,7 +116,17 @@ main .city {
         min-width: 480px;
     }
 
+    .card {
+        box-shadow: 1px 1px 10px #afaeae;
+        border-radius: 1rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
 }
+
 
 .restautant__title {
     padding-bottom: 16px;
@@ -124,10 +134,47 @@ main .city {
 
 
 .restaurant__card__img {
-    height: 210px;
+    height: 200px;
     width: 100%;
     object-fit: cover;
-    border-radius: 16px;
+}
+
+.restaurant__card__new {
+    background-color: $tertiary;
+    border-radius: 2px;
+    color: #2c9c81;
+    font-weight: bold;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.3rem;
+   
+
+    .card__description__text__title {
+        margin: 1rem 0 0 0;
+        font-size: 1rem;
+    }
+
+    .card__description__text__location {
+        margin: 0 0 1rem 0;
+    }
+
+}
+.restaurant.restaurant a {
+    text-decoration: none;
+    color: black;
 }
 
 
+.fa-heart {
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}

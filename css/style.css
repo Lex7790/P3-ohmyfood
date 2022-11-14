@@ -12,6 +12,12 @@ body {
   font-weight: 900;
 }
 
+.fa-heart {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
@@ -128,15 +134,58 @@ main .city {
   grid-template-columns: repeat(2, 1fr);
   min-width: 480px;
 }
+.restaurant .card {
+  box-shadow: 1px 1px 10px #afaeae;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 .restautant__title {
   padding-bottom: 16px;
 }
 
 .restaurant__card__img {
-  height: 210px;
+  height: 200px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 16px;
+}
+
+.restaurant__card__new {
+  background-color: #99E2D0;
+  border-radius: 2px;
+  color: #2c9c81;
+  font-weight: bold;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.3rem;
+}
+.card__description .card__description__text__title {
+  margin: 1rem 0 0 0;
+  font-size: 1rem;
+}
+.card__description .card__description__text__location {
+  margin: 0 0 1rem 0;
+}
+
+.restaurant.restaurant a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-heart {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
