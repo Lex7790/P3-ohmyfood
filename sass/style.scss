@@ -11,7 +11,6 @@ main .city {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    
 }
 
 .city h2 {
@@ -22,10 +21,10 @@ main .city {
     background-color: #F6F6F6;
 }
 
+
 .explorer {
     text-align: center;
-    padding: 2.8rem 1rem;;
-
+    padding: 44.8px 16px;
 }
 
 .explorer h2 {
@@ -54,8 +53,9 @@ main .city {
     opacity: 0.9;
 }
 
+
 .operation__title {
-    padding-left: 16px;
+    padding-left: 32px;
 }
 
 .operation__bloc {
@@ -102,3 +102,27 @@ main .city {
     padding: 24px 20.8px 24px 40px;
     color: gray;
 }
+
+.restaurant {
+    padding: 32px;
+    background-color: #F6F6F6;
+   
+    .card {
+        flex-grow: 1;
+        border: solid black;
+    }
+
+    .menu__cards {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        min-width: 480px;
+    }
+
+}
+
+
+
+
+
+

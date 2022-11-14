@@ -40,7 +40,7 @@ main .city {
 
 .explorer {
   text-align: center;
-  padding: 2.8rem 1rem;
+  padding: 44.8px 16px;
 }
 
 .explorer h2 {
@@ -70,7 +70,7 @@ main .city {
 }
 
 .operation__title {
-  padding-left: 16px;
+  padding-left: 32px;
 }
 
 .operation__bloc {
@@ -115,4 +115,19 @@ main .city {
 .operation__bloc__line__icon {
   padding: 24px 20.8px 24px 40px;
   color: gray;
+}
+
+.restaurant {
+  padding: 32px;
+  background-color: #F6F6F6;
+}
+.restaurant .card {
+  flex-grow: 1;
+  border: solid black;
+}
+.restaurant .menu__cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  min-width: 480px;
 }/*# sourceMappingURL=style.css.map */
