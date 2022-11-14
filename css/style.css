@@ -69,17 +69,17 @@ main .city {
   opacity: 0.9;
 }
 
-.operation-title {
+.operation__title {
   padding-left: 16px;
 }
 
-.operation-bloc {
+.operation__bloc {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.operation-bloc-line {
+.operation__bloc__line {
   display: flex;
   align-items: center;
   background-color: #F6F6F6;
@@ -90,11 +90,11 @@ main .city {
   cursor: pointer;
 }
 
-.operation-bloc-line:hover {
+.operation__bloc__line:hover {
   background-color: #f2eaf7;
 }
 
-.operation-bloc-line-number {
+.operation__bloc__line__number {
   background-color: #9356DC;
   border-radius: 50%;
   width: 24px;
@@ -107,12 +107,12 @@ main .city {
   align-items: center;
 }
 
-.operation-bloc-line-text {
+.operation__bloc__line__text {
   font-size: 12.8px;
   font-weight: bold;
 }
 
-.operation-bloc-line-icon {
+.operation__bloc__line__icon {
   padding: 24px 20.8px 24px 40px;
   color: gray;
 }/*# sourceMappingURL=style.css.map */
