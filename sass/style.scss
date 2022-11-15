@@ -19,6 +19,7 @@ main .city {
 
 .location {
     background-color: #F6F6F6;
+    
 }
 
 
@@ -63,7 +64,12 @@ main .city {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 60px;
+    
+    @media all and (max-width: 847px) {
+        flex-direction: column;
 }
+}
+
 
 .operation__bloc__line {
     display: flex;
@@ -109,13 +115,6 @@ main .city {
     background-color: #F6F6F6;
 
 
-    .menu__cards {
-        display: grid;
-        gap: 32px;
-        grid-template-columns: repeat(2, 1fr);
-        min-width: 480px;
-    }
-
     .card {
         box-shadow: 1px 1px 10px #afaeae;
         border-radius: 1rem;
@@ -125,6 +124,19 @@ main .city {
         position: relative;
     }
 
+}
+
+.menu__cards {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 480px;
+    
+    @media all and (max-width: 747px) {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+}
 }
 
 
@@ -187,11 +199,15 @@ main .city {
     padding: 1.5rem;
     text-align: center;
 
-    .footer__h4 {
-        font-family: "Shrikhand", cursive;
-        font-size: 1.4rem;
-        font-weight: normal;
-    }
+    @media all and (max-width: 600px) {
+        text-align: left;
+}
+}
+
+.footer__h4 {
+    font-family: "Shrikhand", cursive;
+    font-size: 1.4rem;
+    font-weight: normal;
 }
 
 .footer.footer a {

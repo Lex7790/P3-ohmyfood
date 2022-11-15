@@ -85,6 +85,11 @@ main .city {
   justify-content: space-around;
   padding-bottom: 60px;
 }
+@media all and (max-width: 847px) {
+  .operation__bloc {
+    flex-direction: column;
+  }
+}
 
 .operation__bloc__line {
   display: flex;
@@ -128,12 +133,6 @@ main .city {
   padding: 32px;
   background-color: #F6F6F6;
 }
-.restaurant .menu__cards {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(2, 1fr);
-  min-width: 480px;
-}
 .restaurant .card {
   box-shadow: 1px 1px 10px #afaeae;
   border-radius: 1rem;
@@ -141,6 +140,20 @@ main .city {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.menu__cards {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 480px;
+}
+@media all and (max-width: 747px) {
+  .menu__cards {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .restautant__title {
@@ -196,7 +209,13 @@ main .city {
   padding: 1.5rem;
   text-align: center;
 }
-.footer .footer__h4 {
+@media all and (max-width: 600px) {
+  .footer {
+    text-align: left;
+  }
+}
+
+.footer__h4 {
   font-family: "Shrikhand", cursive;
   font-size: 1.4rem;
   font-weight: normal;
