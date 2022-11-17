@@ -46,14 +46,13 @@ main .city {
     border-radius: 30px;
     border: none;
     cursor: pointer;
-    box-shadow: 3.2px 9.6px 8px 0 rgb(203, 201, 201);
+    box-shadow: 3.2px 9.6px 8px 0 rgb(240, 236, 236);
     transition: transform 200ms;
 }
 
 .explorer button:hover {
-    transform: scale(1.02);
-    opacity: 0.9;
-    box-shadow: 3.2px 9.6px 8px 0 rgb(185, 181, 181);
+    opacity: 0.8;
+    box-shadow: 3.2px 9.6px 8px 0 rgb(216, 212, 212);
 }
 
 /* Partie Fonctionnement */

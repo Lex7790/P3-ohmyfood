@@ -1,264 +1,254 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: "Roboto", cursive;
+  margin: 0;
+  font-family: "Roboto", cursive;
 }
 
 .fa,
 .fas {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .fa-heart {
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
-    cursor: pointer;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
 }
 
 header {
-    font-family: "Shrikhand", cursive;
-    text-align: center;
-    box-shadow: 0px -4px 4px #d8d7d7;
-    padding: 4.8px;
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  box-shadow: 0px -4px 4px #d8d7d7;
+  padding: 4.8px;
 }
 
 main .city {
-    width: 100%;
-    padding: 8px;
-    background-color: #e4e4e4;
-    box-shadow: 0px -4px 4px #d8d7d7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  width: 100%;
+  padding: 8px;
+  background-color: #e4e4e4;
+  box-shadow: 0px -4px 4px #d8d7d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 /* Partie Location */
 .city h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .location {
-    background-color: #F6F6F6;
+  background-color: #F6F6F6;
 }
 
 .explorer {
-    text-align: center;
-    padding: 44.8px 16px;
+  text-align: center;
+  padding: 44.8px 16px;
 }
 
 .explorer h2 {
-    margin-top: 32px;
-    font-size: 24px;
+  margin-top: 32px;
+  font-size: 24px;
 }
 
 .explorer p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .explorer button {
-    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
-    color: white;
-    font-weight: bold;
-    padding: 16px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 3.2px 9.6px 8px 0 rgb(203, 201, 201);
-    transition: transform 200ms;
+  background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3.2px 9.6px 8px 0 rgb(240, 236, 236);
+  transition: transform 200ms;
 }
 
 .explorer button:hover {
-    transform: scale(1.02);
-    opacity: 0.9;
-    box-shadow: 3.2px 9.6px 8px 0 rgb(185, 181, 181);
+  opacity: 0.8;
+  box-shadow: 3.2px 9.6px 8px 0 rgb(216, 212, 212);
 }
 
 /* Partie Fonctionnement */
 .operation__title {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .operation__bloc {
-    flex-direction: column;
+  flex-direction: column;
 }
-
 @media only screen and (min-width: 992px) {
-    .operation__bloc {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding-bottom: 60px;
-        flex-direction: row;
-    }
+  .operation__bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    flex-direction: row;
+  }
 }
 
 .operation__bloc__line {
-    display: flex;
-    align-items: center;
-    background-color: #F6F6F6;
-    border-radius: 20px;
-    box-shadow: 3.2px 9.6px 8px 0 rgb(234, 232, 232);
-    padding: 0 16px;
-    margin: 32px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  box-shadow: 3.2px 9.6px 8px 0 rgb(234, 232, 232);
+  padding: 0 16px;
+  margin: 32px;
+  cursor: pointer;
 }
 
 .operation__bloc__line:hover {
-    background-color: #f2eaf7;
+  background-color: #f2eaf7;
 }
 
 .operation__bloc__line__number {
-    background-color: #9356DC;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: -24px;
-    color: white;
-    font-size: 12.8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #9356DC;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: -24px;
+  color: white;
+  font-size: 12.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .operation__bloc__line__text {
-    font-size: 12.8px;
-    font-weight: bold;
+  font-size: 12.8px;
+  font-weight: bold;
 }
 
 .operation__bloc__line__icon {
-    padding: 24px 20.8px 24px 40px;
-    color: gray;
+  padding: 24px 20.8px 24px 40px;
+  color: gray;
 }
 
 /* Partie Restaurant */
 .restaurant {
-    padding: 32px;
-    background-color: #F6F6F6;
+  padding: 32px;
+  background-color: #F6F6F6;
 }
-
 .restaurant .card {
-    box-shadow: 1px 1px 10px #afaeae;
-    border-radius: 16px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  box-shadow: 1px 1px 10px #afaeae;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .menu__cards {
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
-
 @media only screen and (min-width: 792px) {
-    .menu__cards {
-        display: grid;
-        gap: 32px;
-        grid-template-columns: repeat(2, 1fr);
-        min-width: 480px;
-    }
+  .menu__cards {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 480px;
+  }
 }
 
 .restautant__title {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .restaurant__card__img {
-    height: 200px;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .restaurant__card__new {
-    background-color: #99E2D0;
-    border-radius: 2px;
-    color: #2c9c81;
-    font-weight: bold;
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    padding: 6.4px 12.8px;
+  background-color: #99E2D0;
+  border-radius: 2px;
+  color: #2c9c81;
+  font-weight: bold;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  padding: 6.4px 12.8px;
 }
 
 .card__description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20.8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20.8px;
 }
-
 .card__description .card__description__text__title {
-    margin: 16px 0 0 0;
-    font-size: 16px;
+  margin: 16px 0 0 0;
+  font-size: 16px;
 }
-
 .card__description .card__description__text__location {
-    margin: 0 0 16px 0;
+  margin: 0 0 16px 0;
 }
 
 .restaurant.restaurant a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .fa-heart {
-    font-size: 24px;
-    padding-right: 8px;
-    cursor: pointer;
+  font-size: 24px;
+  padding-right: 8px;
+  cursor: pointer;
 }
 
 .fa-heart:hover {
-    transition-duration: 5s;
-    transform: scale(1.9);
-    font-size: 0px;
-    color: #9356DC;
-    font-weight: bold;
-    transition-duration: 1s;
+  transition-duration: 5s;
+  transform: scale(1.9);
+  font-size: 0px;
+  color: #9356DC;
+  font-weight: bold;
+  transition-duration: 1s;
 }
 
 /* Partie Footer */
 .footer {
-    text-align: left;
+  text-align: left;
+  background-color: #353535;
+  color: white;
+  padding: 24px;
+}
+@media only screen and (min-width: 792px) {
+  .footer {
     background-color: #353535;
     color: white;
     padding: 24px;
-}
-
-@media only screen and (min-width: 792px) {
-    .footer {
-        background-color: #353535;
-        color: white;
-        padding: 24px;
-        text-align: center;
-    }
+    text-align: center;
+  }
 }
 
 .footer__h4 {
-    font-family: "Shrikhand", cursive;
-    font-size: 22.4px;
-    font-weight: normal;
+  font-family: "Shrikhand", cursive;
+  font-size: 22.4px;
+  font-weight: normal;
 }
 
 .footer.footer a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .footer .fa-utensils {
-    padding-right: 16px;
+  padding-right: 16px;
 }
 
 .footer .fa-hands-helping {
-    padding-right: 8px;
-}
-
-/*# sourceMappingURL=style.css.map */
+  padding-right: 8px;
+}/*# sourceMappingURL=style.css.map */
