@@ -13,6 +13,8 @@ main .city {
     gap: 16px;
 }
 
+/* Partie Location */
+
 .city h2 {
     font-size: 16px;
 }
@@ -21,7 +23,6 @@ main .city {
     background-color: #F6F6F6;
 
 }
-
 
 .explorer {
     text-align: center;
@@ -52,8 +53,10 @@ main .city {
 .explorer button:hover {
     transform: scale(1.02);
     opacity: 0.9;
+    box-shadow: 3.2px 9.6px 8px 0 rgb(185, 181, 181);
 }
 
+/* Partie Fonctionnement */
 
 .operation__title {
     padding-left: 32px;
@@ -71,7 +74,6 @@ main .city {
 
     }
 }
-
 
 .operation__bloc__line {
     display: flex;
@@ -112,6 +114,8 @@ main .city {
     color: gray;
 }
 
+/* Partie Restaurant */
+
 .restaurant {
     padding: 32px;
     background-color: #F6F6F6;
@@ -142,11 +146,9 @@ main .city {
     }
 }
 
-
 .restautant__title {
     padding-bottom: 16px;
 }
-
 
 .restaurant__card__img {
     height: 200px;
@@ -204,6 +206,7 @@ main .city {
     transition-duration: 1s;
 }
 
+/* Partie Footer */
 
 .footer {
     text-align: left;
