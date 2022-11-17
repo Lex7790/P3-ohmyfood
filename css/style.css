@@ -206,6 +206,15 @@ main .city {
   cursor: pointer;
 }
 
+.fa-heart:hover {
+  transition-duration: 5s;
+  transform: scale(1.9);
+  font-size: 0px;
+  color: #9356DC;
+  font-weight: bold;
+  transition-duration: 1s;
+}
+
 .footer {
   text-align: left;
   background-color: #353535;
