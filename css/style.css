@@ -21,7 +21,7 @@ body {
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -4px 4px #d8d7d7;
   padding: 4.8px;
 }
 
@@ -62,11 +62,11 @@ main .city {
   background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
   color: white;
   font-weight: bold;
-  padding: 1rem;
+  padding: 16px;
   border-radius: 30px;
   border: none;
   cursor: pointer;
-  box-shadow: 0.2rem 0.6rem 0.5rem 0 rgba(92, 90, 90, 0.1);
+  box-shadow: 3.2px 9.6px 8px 0 rgb(203, 201, 201);
   transition: transform 200ms;
 }
 
@@ -96,7 +96,7 @@ main .city {
   align-items: center;
   background-color: #F6F6F6;
   border-radius: 20px;
-  box-shadow: 6.4px 16px 8px 0 rgba(92, 90, 90, 0.1);
+  box-shadow: 3.2px 9.6px 8px 0 rgb(203, 201, 201);
   padding: 0 16px;
   margin: 32px;
   cursor: pointer;
@@ -173,23 +173,23 @@ main .city {
   color: #2c9c81;
   font-weight: bold;
   position: absolute;
-  right: 1rem;
-  top: 1rem;
-  padding: 0.4rem 0.8rem;
+  right: 16px;
+  top: 16px;
+  padding: 6.4px 12.8px;
 }
 
 .card__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.3rem;
+  padding: 0 20.8px;
 }
 .card__description .card__description__text__title {
-  margin: 1rem 0 0 0;
-  font-size: 1rem;
+  margin: 16px 0 0 0;
+  font-size: 16px;
 }
 .card__description .card__description__text__location {
-  margin: 0 0 1rem 0;
+  margin: 0 0 16px 0;
 }
 
 .restaurant.restaurant a {
@@ -198,15 +198,15 @@ main .city {
 }
 
 .fa-heart {
-  font-size: 1.5rem;
-  padding-right: 0.5rem;
+  font-size: 24px;
+  padding-right: 8px;
   cursor: pointer;
 }
 
 .footer {
   background-color: #353535;
   color: white;
-  padding: 1.5rem;
+  padding: 24px;
   text-align: center;
 }
 @media all and (max-width: 600px) {
@@ -217,7 +217,7 @@ main .city {
 
 .footer__h4 {
   font-family: "Shrikhand", cursive;
-  font-size: 1.4rem;
+  font-size: 22.4px;
   font-weight: normal;
 }
 
@@ -227,9 +227,9 @@ main .city {
 }
 
 .footer .fa-utensils {
-  padding-right: 1rem;
+  padding-right: 16px;
 }
 
 .footer .fa-hands-helping {
-  padding-right: 0.5rem;
+  padding-right: 8px;
 }/*# sourceMappingURL=style.css.map */
