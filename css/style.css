@@ -8,7 +8,8 @@ body {
   font-family: "Roboto", cursive;
 }
 
-.fa, .fas {
+.fa,
+.fas {
   font-weight: 900;
 }
 
@@ -80,14 +81,15 @@ main .city {
 }
 
 .operation__bloc {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 60px;
+  flex-direction: column;
 }
-@media all and (max-width: 847px) {
+@media only screen and (min-width: 992px) {
   .operation__bloc {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    flex-direction: row;
   }
 }
 
@@ -135,7 +137,7 @@ main .city {
 }
 .restaurant .card {
   box-shadow: 1px 1px 10px #afaeae;
-  border-radius: 1rem;
+  border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -143,16 +145,17 @@ main .city {
 }
 
 .menu__cards {
-  display: grid;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   gap: 32px;
-  grid-template-columns: repeat(2, 1fr);
-  min-width: 480px;
 }
-@media all and (max-width: 747px) {
+@media only screen and (min-width: 792px) {
   .menu__cards {
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 480px;
   }
 }
 
@@ -204,14 +207,17 @@ main .city {
 }
 
 .footer {
+  text-align: left;
   background-color: #353535;
   color: white;
   padding: 24px;
-  text-align: center;
 }
-@media all and (max-width: 600px) {
+@media only screen and (min-width: 792px) {
   .footer {
-    text-align: left;
+    background-color: #353535;
+    color: white;
+    padding: 24px;
+    text-align: center;
   }
 }
 
