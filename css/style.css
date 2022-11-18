@@ -222,19 +222,19 @@ main .city {
   opacity: 0;
   font-size: x-large;
   position: absolute;
-  transition-delay: 1s;
+  transition-delay: 1.5s;
   transition-property: fill;
 }
 
 .like_btn .fa-solid:hover {
-  background: linear-gradient(to bottom, #9356DC, #FF79DA, #9356DC);
   opacity: 1;
+  background: linear-gradient(to bottom, #9356DC, #FF79DA, #9356DC);
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  transition: all 800ms;
+  transition: all 700ms;
 }
 
 /* Partie Footer */
