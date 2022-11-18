@@ -207,6 +207,8 @@ main .city {
   font-size: 24px;
   padding-right: 8px;
   cursor: pointer;
+  background: none;
+  position: relative;
 }
 
 .fa-heart:hover {
