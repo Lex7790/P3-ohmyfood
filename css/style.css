@@ -14,8 +14,7 @@ body {
 }
 
 .fa-heart {
-  font-size: 1.5rem;
-  padding-right: 0.5rem;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -26,6 +25,7 @@ header {
   padding: 4.8px;
 }
 
+/* animation coeur */
 main .city {
   width: 100%;
   padding: 8px;
@@ -210,12 +210,10 @@ main .city {
 }
 
 .fa-heart:hover {
-  transition-duration: 5s;
-  transform: scale(1.9);
-  font-size: 0px;
+  transform: scale(1.2);
+  transition-duration: 1s;
   color: #9356DC;
   font-weight: bold;
-  transition-duration: 1s;
 }
 
 /* Partie Footer */

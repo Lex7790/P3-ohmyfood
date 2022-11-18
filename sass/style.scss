@@ -1,6 +1,7 @@
 @import "base/base";
 @import "utils/variables";
 @import "layouts/header";
+@import "composants/animations";
 
 main .city {
     width: 100%;
@@ -197,13 +198,12 @@ main .city {
 }
 
 .fa-heart:hover {
-    transition-duration: 5s;
-    transform: scale(1.9);
-    font-size: 0px;
+    transform: scale(1.2);
+    transition-duration: 1s;
     color: $primary;
     font-weight: bold;
-    transition-duration: 1s;
 }
+
 
 /* Partie Footer */
 
