@@ -327,15 +327,24 @@ img {
 }
 
 .menu__bloc {
+    display: block;
+    
+    @media (min-width: 792px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    }
+
 }
 
 .menu__bloc__part {
     padding-top: 1.5rem;
+    
+    @media (min-width: 792px) {
     width: 45%;
+    }
 }
+
 
 .menu__bloc__part__title::before {
     position: absolute;
@@ -388,6 +397,9 @@ img {
     width: 3rem;
 }
 
+.menu__bloc__part__choice__desc__price {
+    font-weight: bold;
+}
 
 .menu__bloc__part__choice__check {
     display: none;
@@ -419,6 +431,10 @@ img {
 
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
     animation: checkRotation 0.5s;
+}
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__desc__price {
+    margin: 0 3rem 0 0.5rem;
 }
 
 .menu__bloc__part__choice__check__faCheck {
