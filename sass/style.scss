@@ -261,6 +261,32 @@ main .city {
 
 /* Restau 1 */
 
+.header_Menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerMenu__arrow {
+    margin-left: -3rem;
+    margin-right: 3rem;
+    color: black;
+}
+
+.header_title {
+    text-align: center;
+    font-family: "Shrikhand", cursive;
+}
+
+.menuImg__img {
+    width: 100%;
+    max-height: 400px;
+}
+
+img {
+    object-fit: cover;
+}
+
 .menu {
     background-color: #F6F6F6;
     border-radius: 35px 35px 0 0;
@@ -269,8 +295,19 @@ main .city {
     margin-top: -3rem;
 }
 
+.menu .menu__header__title {
+    font-family: "Shrikhand", cursive;
+    margin-bottom: 0;
+}
+
+.menu .menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menu__bloc__part__choice {
-background-color: white;
+    background-color: white;
     border-radius: 12px;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
@@ -290,12 +327,25 @@ background-color: white;
 }
 
 .menu__bloc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
+
 .menu__bloc__part {
     padding-top: 1.5rem;
+    width: 45%;
+}
+
+.menu__bloc__part__title::before {
+    position: absolute;
+    content: "";
+    background-color: #99e2d0;
+    left: 0;
+    bottom: -0.4rem;
+    width: 2.5rem;
+    height: 0.15rem;
+
 }
 
 .menu__bloc__part__title {
@@ -303,6 +353,10 @@ background-color: white;
     font-weight: normal;
     font-size: 1rem;
     position: relative;
+}
+
+.menu__bloc__part__choice__title {
+    font-size: 1rem;
 }
 
 .menu__bloc__part__choice {
@@ -317,30 +371,52 @@ background-color: white;
     animation: menuAppaer 1s both;
 }
 
-.menu__bloc__part__choice__check {
-display: none;
+.menu__bloc__part__choice::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
 }
 
-.menu__bloc__part__choice h4, .menu__bloc__part__choice p {
+.menu__bloc__part__choice:hover::after {
+    width: 3rem;
+}
+
+
+.menu__bloc__part__choice__check {
+    display: none;
+}
+
+.menu__bloc__part__choice h4,
+.menu__bloc__part__choice p {
     margin: 0;
 }
 
 @keyframes menuAppear {
     0% {
-		transform: translateY(-200px);
-		filter: blur(10px);
-		opacity: 0;
-	}
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+
     100% {
-		transform: translateY(0);
-		opacity: 1;
-	}
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
+
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
     display: flex;
     justify-content: flex-end;
     margin: -1.8rem 0.4rem 0.4rem 0;
 }
+
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
     animation: checkRotation 0.5s;
 }
@@ -354,10 +430,37 @@ display: none;
 }
 
 @keyframes checkRotation {
-	0% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.menu__command {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.menu__command__button {
+    width: 11rem;
+}
+
+.btn {
+    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
+}
+
+.btn:hover {
+    opacity: 0.8;
+    box-shadow: 0.2rem 0.4rem 0.5rem 0.5rem rgb(58 57 57 / 10%);
 }
