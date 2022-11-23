@@ -273,13 +273,13 @@ main .city {
 }
 
 /* Restau 1 */
-.header_Menu {
+.header_menu {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.headerMenu__arrow {
+.headermenu__arrow {
   margin-left: -3rem;
   margin-right: 3rem;
   color: black;
@@ -319,19 +319,6 @@ img {
   align-items: center;
 }
 
-.menu__bloc__part__choice {
-  background-color: white;
-  border-radius: 12px;
-  font-family: "Roboto", sans-serif;
-  font-size: 0.8rem;
-  padding: 0.5rem;
-  margin: 0.5rem 0 0.5rem 0;
-  cursor: pointer;
-  position: relative;
-  -webkit-animation: menuAppaer 1s both;
-          animation: menuAppaer 1s both;
-}
-
 .menu__bloc__part__choice__desc {
   display: flex;
   justify-content: space-between;
@@ -356,6 +343,11 @@ img {
 @media (min-width: 792px) {
   .menu__bloc__part {
     width: 45%;
+  }
+}
+@media (min-width: 1200px) {
+  .menu__bloc__part {
+    width: 30%;
   }
 }
 
@@ -404,6 +396,11 @@ img {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   transition: width 0.3s ease-in-out;
+}
+
+.menu__bloc__part__choice:nth-child(2) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .menu__bloc__part__choice:hover::after {
