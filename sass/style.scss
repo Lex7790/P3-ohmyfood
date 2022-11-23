@@ -1,5 +1,6 @@
 @import "base/base";
 @import "utils/variables";
+@import "utils/animations";
 @import "layouts/header";
 @import "composants/animations";
 
@@ -193,12 +194,12 @@ main .city {
 .like_btn {
     position: relative;
     width: 5%;
-    bottom: 15%
-}
+    bottom: 15%;
 
-.like_btn .fa-regular {
-    font-size: 24px;
-    position: absolute;
+    .fa-regular {
+        font-size: 24px;
+        position: absolute;
+    }
 }
 
 .like_btn .fa-regular:hover {
@@ -306,7 +307,6 @@ img {
     align-items: center;
 }
 
-
 .menu__bloc__part__choice__desc {
     display: flex;
     justify-content: space-between;
@@ -337,7 +337,6 @@ img {
     }
     
 }
-
 
 .menu__bloc__part__title::before {
     position: absolute;
@@ -370,7 +369,7 @@ img {
     margin: 0.5rem 0 0.5rem 0;
     cursor: pointer;
     position: relative;
-    animation: menuAppaer 1s both;
+    animation: menuAppear 1s both;
 }
 
 .menu__bloc__part__choice::after {
@@ -390,6 +389,16 @@ img {
     animation-delay: 0s;
 }
 
+.menu__bloc__part__choice:nth-child(3) {
+    animation-delay: 0.3s;
+
+}
+
+.menu__bloc__part__choice:nth-child(4) {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+
 .menu__bloc__part__choice:hover::after {
     width: 3rem;
 }
@@ -407,18 +416,6 @@ img {
     margin: 0;
 }
 
-@keyframes menuAppear {
-    0% {
-        transform: translateY(-200px);
-        filter: blur(10px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
     display: flex;
@@ -440,16 +437,6 @@ img {
     color: #99e2d0;
     padding: 0.3rem;
     z-index: 2;
-}
-
-@keyframes checkRotation {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 .menu__command {

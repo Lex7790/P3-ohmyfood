@@ -18,6 +18,45 @@ body {
   cursor: pointer;
 }
 
+@-webkit-keyframes menuAppear {
+  0% {
+    transform: translateY(-200px);
+    filter: blur(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes menuAppear {
+  0% {
+    transform: translateY(-200px);
+    filter: blur(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes checkRotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes checkRotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 header {
   font-family: "Shrikhand", cursive;
   text-align: center;
@@ -208,7 +247,6 @@ main .city {
   width: 5%;
   bottom: 15%;
 }
-
 .like_btn .fa-regular {
   font-size: 24px;
   position: absolute;
@@ -381,8 +419,8 @@ img {
   margin: 0.5rem 0 0.5rem 0;
   cursor: pointer;
   position: relative;
-  -webkit-animation: menuAppaer 1s both;
-          animation: menuAppaer 1s both;
+  -webkit-animation: menuAppear 1s both;
+          animation: menuAppear 1s both;
 }
 
 .menu__bloc__part__choice::after {
@@ -403,6 +441,16 @@ img {
           animation-delay: 0s;
 }
 
+.menu__bloc__part__choice:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.menu__bloc__part__choice:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
 .menu__bloc__part__choice:hover::after {
   width: 3rem;
 }
@@ -420,29 +468,6 @@ img {
   margin: 0;
 }
 
-@-webkit-keyframes menuAppear {
-  0% {
-    transform: translateY(-200px);
-    filter: blur(10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes menuAppear {
-  0% {
-    transform: translateY(-200px);
-    filter: blur(10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
   display: flex;
   justify-content: flex-end;
@@ -466,23 +491,6 @@ img {
   z-index: 2;
 }
 
-@-webkit-keyframes checkRotation {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes checkRotation {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 .menu__command {
   display: flex;
   justify-content: center;
