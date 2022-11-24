@@ -130,7 +130,6 @@ main .city {
         flex-direction: column;
         position: relative;
     }
-
 }
 
 .menu__cards {
@@ -183,7 +182,6 @@ main .city {
     .card__description__text__location {
         margin: 0 0 16px 0;
     }
-
 }
 
 .restaurant.restaurant a {
@@ -210,7 +208,7 @@ main .city {
     opacity: 0;
     font-size: x-large;
     position: absolute;
-    transition-delay: 1.5s;
+    transition-delay: 1s;
     transition-property: fill;
 }
 
@@ -322,7 +320,6 @@ img {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
 }
 
 .menu__bloc__part {
@@ -335,7 +332,6 @@ img {
     @media (min-width: 992px) {
         width: 30%;
     }
-
 }
 
 .menu__bloc__part__title::before {
@@ -346,7 +342,6 @@ img {
     bottom: -6.4px;
     width: 40px;
     height: 2.4px;
-
 }
 
 .menu__bloc__part__title {
@@ -395,7 +390,6 @@ img {
 }
 
 .menu__bloc__part__choice:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
     animation-delay: 0.6s;
 }
 

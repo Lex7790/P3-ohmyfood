@@ -260,7 +260,7 @@ main .city {
   opacity: 0;
   font-size: x-large;
   position: absolute;
-  transition-delay: 1.5s;
+  transition-delay: 1s;
   transition-property: fill;
 }
 
@@ -448,7 +448,7 @@ img {
 
 .menu__bloc__part__choice:nth-child(4) {
   -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 .menu__bloc__part__choice:hover::after {
