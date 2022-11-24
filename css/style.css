@@ -505,7 +505,7 @@ img {
   background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
   color: white;
   font-weight: bold;
-  padding: 8px;
+  padding: 16px;
   border-radius: 30px;
   border: none;
   cursor: pointer;
