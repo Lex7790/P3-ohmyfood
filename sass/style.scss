@@ -269,8 +269,8 @@ main .city {
 }
 
 .headermenu__arrow {
-    margin-left: -3rem;
-    margin-right: 3rem;
+    margin-left: -48px;
+    margin-right: 48px;
     color: black;
 }
 
@@ -291,9 +291,9 @@ img {
 .menu {
     background-color: #F6F6F6;
     border-radius: 35px 35px 0 0;
-    padding: 1rem;
+    padding: 8px;
     position: relative;
-    margin-top: -3rem;
+    margin-top: -48px;
 }
 
 .menu .menu__header__title {
@@ -326,7 +326,7 @@ img {
 }
 
 .menu__bloc__part {
-    padding-top: 1.5rem;
+    padding-top: 24px;
 
     @media (min-width: 792px) {
         width: 45%;
@@ -343,30 +343,30 @@ img {
     content: "";
     background-color: #99e2d0;
     left: 0;
-    bottom: -0.4rem;
-    width: 2.5rem;
-    height: 0.15rem;
+    bottom: -6.4px;
+    width: 40px;
+    height: 2.4px;
 
 }
 
 .menu__bloc__part__title {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 16px;
     position: relative;
 }
 
 .menu__bloc__part__choice__title {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .menu__bloc__part__choice {
     background-color: white;
     border-radius: 12px;
     font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    padding: 0.5rem;
-    margin: 0.5rem 0 0.5rem 0;
+    font-size: 12.8px;
+    padding: 8px;
+    margin: 8px 0 8px 0;
     cursor: pointer;
     position: relative;
     animation: menuAppear 1s both;
@@ -400,7 +400,7 @@ img {
 }
 
 .menu__bloc__part__choice:hover::after {
-    width: 3rem;
+    width: 48px;
 }
 
 .menu__bloc__part__choice__desc__price {
@@ -420,7 +420,7 @@ img {
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
     display: flex;
     justify-content: flex-end;
-    margin: -1.8rem 0.4rem 0.4rem 0;
+    margin: -28.8px 6.4px 6.4px 0;
 }
 
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
@@ -428,39 +428,39 @@ img {
 }
 
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__desc__price {
-    margin: 0 3rem 0 0.5rem;
+    margin: 0 48px 0 8px;
 }
 
 .menu__bloc__part__choice__check__faCheck {
     background-color: white;
     border-radius: 50%;
     color: #99e2d0;
-    padding: 0.3rem;
+    padding: 4.8px;
     z-index: 2;
 }
 
 .menu__command {
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin: 48px;
 }
 
 .menu__command__button {
-    width: 11rem;
+    width: 176px;
 }
 
 .btn {
     background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
     color: white;
     font-weight: bold;
-    padding: 1rem;
+    padding: 8px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
-    box-shadow: 0.2rem 0.6rem 0.5rem 0 rgba(89, 87, 87, 0.1);
+    box-shadow: 3.2px 9.6px 8px 0 rgba(89, 87, 87, 0.1);
 }
 
 .btn:hover {
     opacity: 0.8;
-    box-shadow: 0.2rem 0.4rem 0.5rem 0.5rem rgba(62, 61, 61, 0.1);
+    box-shadow: 3.2px 9.6px 8px 0 rgba(62, 61, 61, 0.1);
 }
