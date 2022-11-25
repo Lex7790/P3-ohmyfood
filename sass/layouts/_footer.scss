@@ -1,13 +1,21 @@
 .footer {
+    text-align: left;
     background-color: #353535;
     color: white;
     padding: 24px;
 
-    .footer__h4 {
-        font-family: "Shrikhand", cursive;
-        font-size: 22.4px;
-        font-weight: normal;
+    @media only screen and (min-width: 792px) {
+        background-color: #353535;
+        color: white;
+        padding: 24px;
+        text-align: center;
     }
+}
+
+.footer__h4 {
+    font-family: "Shrikhand", cursive;
+    font-size: 22.4px;
+    font-weight: normal;
 }
 
 .footer.footer a {

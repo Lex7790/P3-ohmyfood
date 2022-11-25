@@ -1,3 +1,5 @@
+/* Menu */
+
 @keyframes menuAppear {
     0% {
         transform: translateY(-200px);
@@ -11,6 +13,8 @@
     }
 }
 
+/* Check */
+
 @keyframes checkRotation {
     0% {
         transform: rotate(0);
@@ -18,5 +22,42 @@
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+/* loader */
+
+@keyframes loader {
+    100% {
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0)
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(8px);
+    }
+
+    75% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
