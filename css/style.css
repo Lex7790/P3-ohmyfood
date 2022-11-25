@@ -243,6 +243,10 @@ main .city {
   opacity: 0.9;
 }
 
+.operation__bloc__line:hover .operation__bloc__line__icon {
+  color: #9356DC;
+}
+
 .operation__bloc__line__number {
   background-color: #9356DC;
   border-radius: 50%;
@@ -359,7 +363,7 @@ main .city {
   transition-property: fill;
 }
 
-.like_btn .fa-solid:hover {
+.like_btn:hover .fa-solid {
   opacity: 1;
   background: linear-gradient(to bottom, #9356DC, #FF79DA, #9356DC);
   background-clip: content-box;
@@ -586,7 +590,6 @@ img {
   left: 0;
   top: 0;
   background-color: #F6F6F6;
-  opacity: 0.9;
   -webkit-animation: loader 0.01s;
           animation: loader 0.01s;
   -webkit-animation-delay: 1.75s;
