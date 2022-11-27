@@ -338,6 +338,16 @@ img {
     animation: menuAppear 1s both;
 }
 
+.menu__bloc__part__choice, .menu__content {
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.menu__bloc__part__choice__title, .menu__bloc__part__choice__desc__food {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .menu__bloc__part__choice::after {
     content: "";
     position: absolute;
