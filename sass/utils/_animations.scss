@@ -34,16 +34,6 @@
     }
 }
 
-@keyframes itemAppear {
-    0% {
-        transform: scale(0)
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
 @keyframes jump {
     0% {
         transform: translateY(0);

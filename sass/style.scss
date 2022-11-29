@@ -410,7 +410,7 @@ img {
 .menu__bloc__part__choice__check__faCheck {
     background-color: white;
     border-radius: 50%;
-    color: #99e2d0;
+    color: $tertiary;
     padding: 4.8px;
     z-index: 2;
 }
@@ -451,7 +451,7 @@ img {
     top: 0;
     background-color: #F6F6F6;
     animation: loader .01s;
-    animation-delay: 1.75s;
+    animation-delay: 2s;
     animation-fill-mode: both;
     z-index: 10000;
     display: flex;
