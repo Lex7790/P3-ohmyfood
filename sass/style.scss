@@ -217,7 +217,7 @@ main .city {
     transition-property: fill;
 }
 
-.like_btn:hover  .fa-solid {
+.like_btn:hover .fa-solid {
     opacity: 1;
     background: linear-gradient(to bottom, #9356DC, #FF79DA, #9356DC);
     background-clip: content-box;
@@ -339,12 +339,14 @@ img {
     animation: menuAppear 1s both;
 }
 
-.menu__bloc__part__choice, .menu__content {
+.menu__bloc__part__choice,
+.menu__content {
     overflow: hidden;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
-.menu__bloc__part__choice__title, .menu__bloc__part__choice__desc__food {
+.menu__bloc__part__choice__title,
+.menu__bloc__part__choice__desc__food {
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -359,20 +361,6 @@ img {
     background-color: #99e2d0;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    transition: width 0.3s ease-in-out;
-}
-
-.menu__bloc__part__choice:nth-child(2) {
-    animation-delay: 0s;
-}
-
-.menu__bloc__part__choice:nth-child(3) {
-    animation-delay: 0.3s;
-
-}
-
-.menu__bloc__part__choice:nth-child(4) {
-    animation-delay: 0.6s;
 }
 
 .menu__bloc__part__choice:hover::after {
@@ -391,7 +379,6 @@ img {
 .menu__bloc__part__choice p {
     margin: 0;
 }
-
 
 .menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
     display: flex;
@@ -450,9 +437,8 @@ img {
     left: 0;
     top: 0;
     background-color: #F6F6F6;
-    animation: loader .01s;
+    animation: loader .02s;
     animation-delay: 2s;
-    animation-fill-mode: both;
     z-index: 10000;
     display: flex;
     align-items: center;
