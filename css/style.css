@@ -489,6 +489,21 @@ img {
           animation: menuAppear 1s both;
 }
 
+.menu__bloc__part__choice:nth-child(2) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.menu__bloc__part__choice:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.menu__bloc__part__choice:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
 .menu__bloc__part__choice, .menu__content {
   overflow: hidden;
   white-space: nowrap;
@@ -512,20 +527,6 @@ img {
   transition: width 0.3s ease-in-out;
 }
 
-.menu__bloc__part__choice:nth-child(2) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-}
-
-.menu__bloc__part__choice:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-
-.menu__bloc__part__choice:nth-child(4) {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
-}
 
 .menu__bloc__part__choice:hover::after {
   width: 48px;

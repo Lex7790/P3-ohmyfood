@@ -361,8 +361,8 @@ img {
     background-color: $tertiary;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
 }
-
 
 .menu__bloc__part__choice:hover::after {
     width: 48px;
