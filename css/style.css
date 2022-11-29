@@ -344,7 +344,7 @@ main .city {
 .like_btn {
   position: relative;
   width: 5%;
-  bottom: 15%;
+  padding-bottom: 6px;
 }
 .like_btn .fa-regular {
   font-size: 24px;
@@ -485,6 +485,7 @@ img {
   margin: 8px 0 8px 0;
   cursor: pointer;
   position: relative;
+  box-shadow: 3.2px 9.6px 8px 0 rgb(234 232 232);
   -webkit-animation: menuAppear 1s both;
           animation: menuAppear 1s both;
 }

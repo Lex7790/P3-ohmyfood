@@ -197,7 +197,7 @@ main .city {
 .like_btn {
     position: relative;
     width: 5%;
-    bottom: 15%;
+    padding-bottom: 6px;
 
     .fa-regular {
         font-size: 24px;
@@ -337,6 +337,7 @@ img {
     cursor: pointer;
     position: relative;
     animation: menuAppear 1s both;
+    box-shadow: 3.2px 9.6px 8px 0 rgb(234 232 232);
 }
 
 .menu__bloc__part__choice,
