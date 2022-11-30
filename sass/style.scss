@@ -327,6 +327,8 @@ img {
     font-size: 16px;
 }
 
+/* Animation Menu Restaurants */
+
 .menu__bloc__part__choice {
     background-color: white;
     border-radius: 12px;
@@ -370,6 +372,8 @@ img {
     text-overflow: ellipsis;
 }
 
+/* Animation check */
+
 .menu__bloc__part__choice::after {
     content: "";
     position: absolute;
@@ -383,30 +387,12 @@ img {
     transition: width 0.3s ease-in-out;
 }
 
-.menu__bloc__part__choice__check {
-    display: none;
-}
-
-.menu__bloc__part__choice__desc__price {
-    font-weight: bold;
-}
-
 .menu__bloc__part__choice:hover::after {
     width: 48px;
 }
 
-.menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
-    display: flex;
-    justify-content: flex-end;
-    margin: -28.8px 6.4px 6.4px 0;
-}
-
-.menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
-    animation: checkRotation 0.5s;
-}
-
-.menu__bloc__part__choice:hover .menu__bloc__part__choice__desc__price {
-    margin: 0 48px 0 8px;
+.menu__bloc__part__choice__check {
+    display: none;
 }
 
 .menu__bloc__part__choice__check__faCheck {
@@ -416,6 +402,26 @@ img {
     padding: 4.8px;
     z-index: 2;
 }
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
+    animation: checkRotation 0.5s;
+}
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__check {
+    display: flex;
+    justify-content: flex-end;
+    margin: -28.8px 6.4px 6.4px 0;
+}
+
+.menu__bloc__part__choice__desc__price {
+    font-weight: bold;
+}
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__desc__price {
+    margin: 0 48px 0 8px;
+}
+
+/* Bouton commande */
 
 .menu__command {
     display: flex;
