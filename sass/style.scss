@@ -339,6 +339,25 @@ img {
     animation: menuAppear 1s both;
 }
 
+
+.menu__bloc__part__choice:nth-child(2) {
+    animation-delay: 0s;
+}
+
+.menu__bloc__part__choice:nth-child(3) {
+    animation-delay: 0.3s;
+
+}
+
+.menu__bloc__part__choice:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.menu__bloc__part__choice h4,
+.menu__bloc__part__choice p {
+    margin: 0;
+}
+
 .menu__bloc__part__choice,
 .menu__content {
     overflow: hidden;
@@ -362,6 +381,14 @@ img {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     transition: width 0.3s ease-in-out;
+}
+
+.menu__bloc__part__choice__check {
+    display: none;
+}
+
+.menu__bloc__part__choice__desc__price {
+    font-weight: bold;
 }
 
 .menu__bloc__part__choice:hover::after {
@@ -388,32 +415,6 @@ img {
     color: $tertiary;
     padding: 4.8px;
     z-index: 2;
-}
-
-.menu__bloc__part__choice:nth-child(2) {
-    animation-delay: 0s;
-}
-
-.menu__bloc__part__choice:nth-child(3) {
-    animation-delay: 0.3s;
-
-}
-
-.menu__bloc__part__choice:nth-child(4) {
-    animation-delay: 0.6s;
-}
-
-.menu__bloc__part__choice__desc__price {
-    font-weight: bold;
-}
-
-.menu__bloc__part__choice__check {
-    display: none;
-}
-
-.menu__bloc__part__choice h4,
-.menu__bloc__part__choice p {
-    margin: 0;
 }
 
 .menu__command {
