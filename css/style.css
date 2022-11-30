@@ -157,7 +157,7 @@ header {
     transform: translateY(0);
   }
 }
-/* animation coeur */
+
 main .city {
   width: 100%;
   padding: 8px;
@@ -340,7 +340,7 @@ main .city {
   color: black;
 }
 
-/* Icône coeur */
+/* animation coeur */
 .like_btn {
   position: relative;
   width: 5%;
@@ -357,10 +357,7 @@ main .city {
 
 .like_btn .fa-solid {
   opacity: 0;
-  font-size: x-large;
   position: absolute;
-  transition-delay: 1s;
-  transition-property: fill;
 }
 
 .like_btn:hover .fa-solid {
